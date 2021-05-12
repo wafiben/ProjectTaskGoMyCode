@@ -171,11 +171,7 @@ section {
 {
   opacity: 0.7;
 }
-@media (max-width: 830px) {
-  .box-content {
-    padding: 1.375em 1.25em 0;
-  }
-}
+
 .footer-carte h1{
   width: 33%;
   font-size: 1.625em;
@@ -203,7 +199,218 @@ section {
   background-color: transparent;
   
 }
-.logo-items  li  {
-  
-  color: red
+.container-fluid{
+display: flex;
+justify-content: space-around;
 }
+
+.container-fluid{
+  background-color: #e5faf8;
+}
+.header h1{
+  font-size: 2.125rem;
+    color: #00b39b;
+}
+.container-fluid{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  height: 800px;
+  
+}
+.header{
+ width:30%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ text-align: center;
+}
+.header h1{
+  font-size: 2.125rem;
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.header p{
+  font-size: .875em;
+font-weight: 400;
+line-height: 1.7142857143;
+}
+.world-information{
+  width:60%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+h4{
+  font-weight: 300;
+}
+
+.informations-1{
+  background-color: #ffff;
+    border-radius: 5px;
+    height: 300px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    width:35%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-right: 10px;
+    padding: 20px 30px;
+    
+    
+    
+}
+.informations-2{
+  background-color: #ffff;
+    border-radius: 5px;
+    height: 300px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    width:35%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 60px;
+    padding: 20px 30px;
+    margin-top:80px ;
+}
+.informations-3{
+  background-color: #ffff;
+  border-radius: 5px;
+  height: 300px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  width:35%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-top:20px;
+  margin-left: 150px;
+  margin-right: 10px;
+  padding: 20px 30px;
+  
+}
+.informations-4{
+  background-color: #ffff;
+  border-radius: 5px;
+  height: 300px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  width:35%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:200px;
+  margin-left:10px;
+  margin-top:10px;
+  padding: 20px 30px;
+
+ 
+}
+.informations-2 img,.informations-3 img,.informations-1 img,.informations-4 img{
+  width:50px;
+  
+}
+.informations-2 h4,.informations-3 h4,.informations-1 h4,.informations-4 h4 {
+  font-size: 1.8461538462em;
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: -.3px;
+}
+
+.office-header{
+  margin-top: 30px;
+  margin: auto;
+  max-width: 460px;
+  text-align: center;
+}
+.office-header h1{
+  font-size: 2.1428571429em;
+  color:    #00b39b;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.office-header p{
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.office-place{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+
+  
+  
+}
+
+.office-carte{
+  
+  border-radius: 10px;
+  margin-bottom: 50px;
+  
+}
+.office-image img{
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid gray;
+  border-width:1px;
+  border-bottom: none;
+}
+.office-dest{
+  display: flex;
+  justify-content:space-around;
+  
+  align-items: center;
+}
+.btn{
+  background-color:  #3d83df;
+  color: white;
+}
+.office-carte:hover{
+  cursor: pointer;
+  box-shadow: 12px 24px 24px rgba(0, 0, 0, 0.2);
+}
+.office-dest .btn{
+  padding: 0.1666666667em 1.5em;
+ height: 30px;
+ margin-bottom: 1px;
+ outline: none;
+ border: none;
+ text-align: center;
+ vertical-align: middle;
+ 
+
+}
+.join-us{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.join-us h1{
+  font-size: 2em;
+  font-weight: 300;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+ 
+}
+footer p{
+  letter-spacing: 0.01rem;
+  width: 80%;
+  margin: auto;
+}
+.second-element span{
+  padding-left: 35%;
+  
+}
+
