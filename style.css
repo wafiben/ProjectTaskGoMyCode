@@ -1,7 +1,20 @@
 body {
   margin: 0px;
   padding: 0px;
+  
 }
+p{
+  color: #747474;
+}
+.navbar-menu h1{
+  color:#00ccb1 !important   ;
+  
+}
+.logo-text h1{
+  color:#00ccb1 !important
+
+}
+
 ul {
   list-style: none;
 }
@@ -22,7 +35,10 @@ section {
   background-color: #ffffff;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   padding: 0px 5%;
+  
+  
 }
+.text-container{}
 .navbar-menu ul {
   display: flex;
   padding: 0px 5%;
@@ -31,6 +47,10 @@ section {
   margin: 30px;
   font-weight: 700;
   font-size: 15px;
+}
+.heading h1 {
+  color:#00ccb1 ;
+  font-weight: 300;
 }
 .logo {
   font-size: 22px;
@@ -61,6 +81,7 @@ section {
   height: 70%;
   margin-top: 70px;
   justify-content: center;
+  color: #747474;
 }
 .text-about-1 {
   margin-left: 100px;
@@ -412,5 +433,131 @@ footer p{
 .second-element span{
   padding-left: 35%;
   
+}
+@media screen and (max-width: 386px) {
+  .navbar-menu ul li a {
+    float: none;
+    width: 500px !important;
+
+     margin: 5px;
+}
+.navbar-menu{
+  display: flex;
+  flex-direction: column;
+}
+.heading h1{
+  font-size: 200;
+
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.text-about-1,.text-about-2{
+width:300px;
+height: 5vh;
+text-align: center;
+margin: auto;
+
+}
+.text-about-1{
+  margin-bottom: 20px;
+  
+}
+.text-about-2{
+  margin-top:170px
+}
+
+.carte{
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+  margin-bottom: 10px;
+}
+.box-centent{
+  width: 80vw;
+}
+.footer-carte{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.footer-carte h1{
+  text-align: center;
+  margin: auto;
+  width:300px ;
+  
+}
+.footer-carte ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top:30px;
+  width:200px;
+  margin-bottom: 100px;
+
+} 
+.logo-items  li a {
+  display: inline;
+  font-weight: 1500;
+  font-size: 10px;
+  
+}
+.container-fluid{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  height: 1500px;
+  width: 100vw;
+  margin: auto;
+   
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width:300px ;
+  margin-top: 1px;
+}
+
+.header  img{
+  display: none;
+}
+.world-information {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  position: absolute;
+  justify-content: center;
+  margin-left: 30px;
+
+}
+.word{
+  width: 300px;
+  margin: auto;
+  width:80vw;
+  
+}
+body{
+  margin:auto;
+}
+.informations-2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.informations-3{
+  margin-bottom: 10px;
+}
+.heading h1{
+  text-align: center;
+}
+.join-us h1{
+  text-align: center;
+}
+
 }
 
